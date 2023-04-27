@@ -30,13 +30,13 @@ app.listen(port, () => {
 
 // by get
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send("Hello my new server in express")
 })
 
 // new path
 
-app.get('/newPath', (req, res) => {
+app.get('/api/newPath', (req, res) => {
   res.send("It's new path")
 })
 
